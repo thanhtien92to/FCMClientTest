@@ -1,0 +1,36 @@
+[debug] [2017-08-29T03:34:17.566Z] ----------------------------------------------------------------------
+[debug] [2017-08-29T03:34:17.578Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thanhtien\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8081
+[debug] [2017-08-29T03:34:17.579Z] CLI Version:   3.9.2
+[debug] [2017-08-29T03:34:17.579Z] Platform:      win32
+[debug] [2017-08-29T03:34:17.579Z] Node Version:  v6.11.2
+[debug] [2017-08-29T03:34:17.580Z] Time:          Tue Aug 29 2017 10:34:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:17.580Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-29T03:34:17.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-29T03:34:17.621Z] > authorizing via signed-in user
+[debug] [2017-08-29T03:34:17.628Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-29T03:34:17.630Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ezYMMTBgBDqpQaOaX3RfRC0cBPLPRdI1OLt4zBuHYoU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 29 2017 10:34:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:18.116Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T03:34:18.185Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/webpn-c9401  
+ Tue Aug 29 2017 10:34:18 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:19.220Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T03:34:19.222Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/webpn-c9401/tokens  
+ Tue Aug 29 2017 10:34:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:20.527Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Workspace\FirebaseCloudeMessageTest'...
+[info] 
+[debug] [2017-08-29T03:34:20.535Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/webpn-c9401  
+ Tue Aug 29 2017 10:34:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:22.034Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T03:34:22.034Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/306755202190/clients/_:getWebAppConfig  
+ Tue Aug 29 2017 10:34:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-29T03:34:22.862Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:8081
+
